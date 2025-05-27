@@ -38,9 +38,13 @@ Where \(p1\) to \(p6\) are specific eye landmarks.
 ## 📂 Project Structure
 
 `├── drowsiness\_detector.py
+
 ├── shape\_predictor\_68\_face\_landmarks.dat
+
 ├── alarm.wav
+
 ├── requirements.txt
+
 └── README.md`
 
 ## ▶️ Getting Started
