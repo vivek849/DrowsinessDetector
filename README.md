@@ -35,18 +35,6 @@ EAR = \frac{||p2 - p6|| + ||p3 - p5||}{2 \times ||p1 - p4||}
 
 Where \(p1\) to \(p6\) are specific eye landmarks.
 
-## 📂 Project Structure
-
-`├── drowsiness\_detector.py
-
-├── shape\_predictor\_68\_face\_landmarks.dat
-
-├── alarm.wav
-
-├── requirements.txt
-
-└── README.md`
-
 ## ▶️ Getting Started
 
 ### Prerequisites
