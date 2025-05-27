@@ -29,19 +29,19 @@ A real-time computer vision-based system to detect drowsiness using Eye Aspect R
 
 ## 📸 Eye Aspect Ratio (EAR) Formula
 
-\[
+`\[
 EAR = \frac{||p2 - p6|| + ||p3 - p5||}{2 \times ||p1 - p4||}
-\]
+\]`
 
 Where \(p1\) to \(p6\) are specific eye landmarks.
 
 ## 📂 Project Structure
 
-├── drowsiness\_detector.py
+`├── drowsiness\_detector.py
 ├── shape\_predictor\_68\_face\_landmarks.dat
 ├── alarm.wav
 ├── requirements.txt
-└── README.md
+└── README.md`
 
 ## ▶️ Getting Started
 
@@ -53,18 +53,18 @@ Where \(p1\) to \(p6\) are specific eye landmarks.
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/drowsiness-detector.git
-   cd drowsiness-detector
+  ` git clone https://github.com/your-username/drowsiness-detector.git
+   cd drowsiness-detector`
 
 2. Install required packages:
 
-   pip install -r requirements.txt
+  ` pip install -r requirements.txt`
 
 3. Download the `shape_predictor_68_face_landmarks.dat` file from [dlib's official source](http://dlib.net/files/) and place it in the project folder.
 
 ### Run the Project
 
-python drowsiness_detector.py
+`python drowsiness_detector.py`
 
 ## ⚙️ Customization
 
